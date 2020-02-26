@@ -1,12 +1,11 @@
-html, body { background: #777; padding: 20px 0; }	
+html, body { background: #777; padding: 0 0; }	
 h5 { font-weight: bold; }
-
+p { margin-bottom: 1px; }
 		#resume-container {  
 			background: rgba(255,255,255,1); 
 			color: black !important;
-			opacity: 1 !important; 
-			margin-bottom: 40px; 
-			padding-bottom: 20px;  
+			opacity: 1 !important;
+			padding-bottom: 10px;
 			border-radius: 7px; 
 		}
 		
@@ -16,7 +15,7 @@ h5 { font-weight: bold; }
 		
 		#resume-container header { 
 			background: #4caf7c; 
-			padding: 40px 0 20px; 
+			padding: 30px 0 15px; 
 			position: relative;
 			z-index: 1;
 			border-top-left-radius: 7px; 
@@ -53,26 +52,25 @@ h5 { font-weight: bold; }
 		#resume-container .contact-info a  { color: white; }
 		
 		
-		#resume-container #summary { padding: 50px 10px 0; }
+		#resume-container #summary { padding: 50px 20px 0; }
 		#resume-container #summary .summary { padding: 0 20px; }
 		
 		#resume-container .skill-text { text-align: center; }
 		
-		#resume-container .contact-info .email, #resume-container .contact-info .phone { text-align: center; margin-bottom: 20px; }
-		
+		#resume-container .contact-info .email, #resume-container .contact-info .phone { text-align: center; margin-bottom: 10px; }
 		
 		#experience { padding: 0 20px; }
 		
 		#experience h2, #experience h3, #experience h4 { margin: 0 !important; }
 	
-		#experience .past-employer { padding: 20px 0; }
+		#experience .past-employer { padding: 5px 0; }
 		#experience .employer-img { display: block; margin: 0 auto; padding-top: 20px; }
 		#experience .short-description { /* padding-top: 20px; */ }
 		
 		
 		.list-2 { padding: 0 20px; }
 		
-		.list-2 .past-school { padding: 20px 0; }
+		.list-2 .past-school { padding: 10px 0; }
 		
 		.list-2 .past-school .left { text-align: center; }
 		
@@ -136,13 +134,13 @@ h5 { font-weight: bold; }
 	
 	@media only screen and (max-width: 990px) {
 	
-		.past-employer { border-bottom: 1px solid #dedede; margin-bottom: 20px; }
+		.past-employer { border-bottom: 1px solid #dedede; margin-bottom: 10px; }
 		.past-employer:last-child { border-bottom: none; margin-bottom: 0; }
 		
 		.past-school { border-bottom: 1px solid #dedede; }
 		.past-school:last-child { border-bottom: none !important; }
 		
-		#references .col-md-4 { margin-bottom: 20px; }
+		#references .col-md-4 { margin-bottom: 10px; }
 		
 		#experience .employer-img { padding-top: 0; max-width: 200px; }
 		
