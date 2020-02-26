@@ -109,8 +109,9 @@ h5 { font-weight: bold; }
 		#resume-container .linkedin-link span { display: block; color: black; text-align: center; }
 		
 		
-
-
+		.lbb { border-left: 2px solid black;  }
+		#experience .col-md-7 { border-left: 2px solid black; }
+		.list-2 .col-md-8 { border-left: 2px solid black; }
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -121,12 +122,11 @@ h5 { font-weight: bold; }
 	}
 	
 	@media only screen and ( min-width: 992px ) {
-		#experience .col-md-7 { border-left: 2px solid black; }
-		.list-2 .col-md-8 { border-left: 2px solid black; }
+		
 	}
 	
-  @media only screen and ( min-width: 992px ) {
-		.lbb { border-left: 2px solid black; }
+  	@media only screen and ( min-width: 992px ) {
+		
 	}
 	
 	@media only screen and (max-width: 1200px) {
